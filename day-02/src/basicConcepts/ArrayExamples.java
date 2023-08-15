@@ -204,7 +204,7 @@ public class ArrayExamples {
         // 4 Reference Variables to Person
         // It does not create the Person Objects
         // ArrayOnHeap.xls
-        System.out.println(persons[0]);// null
+        System.out.println(persons[0]); // null
 
         // EN to assign objects we would need to create them
         // TR nesneleri atamak için onları yaratmamız gerekir
@@ -213,11 +213,11 @@ public class ArrayExamples {
         persons[2] = new Person();
 
         // EN Other way TR Başka bir yol
-        // EN How may objects are created?
+        // EN How may objects are created? // 3
         // TR Kaç nesne oluşturulabilir?
         Person[] personsAgain = {new Person(), new Person(), new Person()};
 
-        // EN How may objects are created?
+        // EN How may objects are created? // 5
         // TR Kaç nesne oluşturulabilir?
         Person[][] persons2D = {{new Person(), new Person(), new Person()},
                 {new Person(), new Person()}};
