@@ -33,6 +33,8 @@ public class ArrayExamples6 {
             System.out.println();
         }
 
+        System.out.println("\n**********************\n");
+
 /*      EN Finding the largest and smallest elements in each row
 
         TR Her satırdaki en büyük ve en küçük elemanların bulunması
@@ -51,6 +53,8 @@ public class ArrayExamples6 {
             System.out.println((i + 1) + ". smallest element in the line: " + smallElement);
             System.out.println((i + 1) + ". largest element in the line: " + bigElement);
         }
+
+        System.out.println("\n**********************\n");
 
 /*      EN  Find the largest and smallest element in each column.
 
@@ -82,6 +86,9 @@ public class ArrayExamples6 {
             System.out.println((j + 1) + ". smallest element in the column: " + smallElement);
             System.out.println((j + 1) + ". largest element in the column: " + bigElement);
         }
+
+        System.out.println("\n**********************\n");
+
         System.out.println("The smallest element in the table: " + smallest);
         System.out.println("The largest element in the table: " + biggest);
     }
